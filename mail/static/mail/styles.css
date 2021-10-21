@@ -1,0 +1,14 @@
+textarea {
+    min-height: 400px;
+}
+
+.email-entry {
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.email-timestamp {
+    text-align: end;
+}
