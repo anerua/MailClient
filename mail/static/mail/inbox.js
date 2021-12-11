@@ -122,7 +122,7 @@ function view_mail(email, mailbox) {
 
   header.innerHTML = `<strong>From: </strong>${email.sender}<br>
                       <strong>To: </strong>${email.recipients}<br>
-                      <strong>Suject: </strong>${email.subject}<br>
+                      <strong>Subject: </strong>${email.subject}<br>
                       <strong>Timestamp: </strong>${email.timestamp}<br>
                       <button class="btn btn-sm btn-outline-primary" id="reply">Reply</button> `;
 
